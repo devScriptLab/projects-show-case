@@ -9,6 +9,7 @@ export const ListItem = styled.li`
   box-shadow: 0px 0px 8px 2px #cbd5e1;
   border: 1px solid #cbd5e1;
   margin-bottom: 10px;
+  padding: 8px;
   flex-shrink: 0;
   @media screen and (min-width: 576px) {
     width: 45%;
@@ -29,15 +30,17 @@ export const ProjectImage = styled.img`
   width: 100%;
   height: 280px;
   object-fit: cover;
-  border-top-left-radius: 12px;
-  border-top-right-radius: 12px;
+  border-radius: 12px;
+  border: 1px solid #cbd5e1;
 `
 
 export const ProjectName = styled.p`
   color: #475569;
   font-family: 'Roboto';
-  font-size: 18px;
+  font-size: 16px;
   margin: 0px;
-  margin-left: 8px;
   padding: 8px;
+  @media screen and (min-width: 786px) {
+    font-size: 18px;
+  }
 `
